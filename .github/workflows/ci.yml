@@ -10,7 +10,10 @@ name: Allure Report CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+      - develop
+      - feature/*
   pull_request:
     branches: [ "main" ]
 
